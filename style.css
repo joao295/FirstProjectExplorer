@@ -5,14 +5,15 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-size: 49px;
   line-height: 56px;
-  font-weight: normal
+  font-weight: normal;
+  margin-bottom: 32px;
 }
 
 
 
 #hero{ 
   width: 592px;
-  margin: auto;
+  margin: 0 auto 72px;
 }
 
 
@@ -20,12 +21,17 @@ h1 span{
   font-weight: bold;
 }
 
+
+
 body{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  margin: 0;
 }
 
-
+#hero img {
+  margin-bottom: 72px;
+}
 
 
 span, a{ 
@@ -37,3 +43,8 @@ p{
   font-size: 14px;
   line-height: 28px;
 }
+
+
+ #footer a + a {
+   margin-left: 28px;
+ }
